@@ -1,5 +1,11 @@
 # Google Sans Hebrew fixes
 
+> [!NOTE]
+> This fork was developed with AI assistance for font inspection, modification
+> scripts, outline corrections, tests, and documentation. Changes were iteratively
+> reviewed by the maintainer using rendered specimens. AI-generated changes and
+> passing tests do not replace type-design expertise or on-device visual testing.
+
 An experimental fork of [Google Sans](https://github.com/googlefonts/googlesans)
 focused on Hebrew rendering, spacing, mark placement, and variable-font grade
 support. This is an independent project, not an official Google release.
@@ -101,13 +107,6 @@ the same clean-clone validation and uploads fonts, specimens, logs, and reports.
 Fork owners may need to enable Actions in their repository settings. Hosted
 runtime and memory limits still apply; local validation does not prove a hosted
 workflow will pass before its first run.
-
-## AI usage
-
-This fork was developed with AI assistance for font inspection, modification
-scripts, outline corrections, tests, and documentation. Changes were iteratively
-reviewed by the maintainer using rendered specimens. AI-generated changes and
-passing tests do not replace type-design expertise or on-device visual testing.
 
 ## License and attribution
 
