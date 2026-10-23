@@ -4,6 +4,6 @@
   <unicode hex="FB2E"/>
   <outline>
     <component base="alef-hb"/>
-    <component base="patah-hb" xOffset="160"/>
+    <component base="patah-hb" xOffset="153.4"/>
   </outline>
 </glyph>

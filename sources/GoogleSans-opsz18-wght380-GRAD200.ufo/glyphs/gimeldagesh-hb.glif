@@ -4,6 +4,6 @@
   <unicode hex="FB32"/>
   <outline>
     <component base="gimel-hb"/>
-    <component base="dagesh-hb" xOffset="57" yOffset="24"/>
+    <component base="dagesh-hb" xOffset="35.275" yOffset="26.2"/>
   </outline>
 </glyph>

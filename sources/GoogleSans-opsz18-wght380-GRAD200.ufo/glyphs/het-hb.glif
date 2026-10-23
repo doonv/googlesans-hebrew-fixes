@@ -2,32 +2,32 @@
 <glyph name="het-hb" format="2">
   <advance width="699"/>
   <unicode hex="05D7"/>
-  <anchor x="350" y="0" name="bottom"/>
-  <anchor x="25" y="0" name="bottomleft"/>
-  <anchor x="655" y="0" name="bottomright"/>
+  <anchor x="353.85" y="0" name="bottom"/>
+  <anchor x="2.45" y="0" name="bottomleft"/>
+  <anchor x="664.35" y="0" name="bottomright"/>
   <anchor x="345" y="612" name="top"/>
-  <anchor x="0" y="612" name="topleft"/>
-  <anchor x="579" y="612" name="topright"/>
+  <anchor x="-7.7" y="612" name="topleft"/>
+  <anchor x="586.15" y="612" name="topright"/>
   <outline>
     <contour>
-      <point x="539" y="0" type="line"/>
-      <point x="633" y="0" type="line"/>
-      <point x="633" y="349" type="line" smooth="yes"/>
-      <point x="633" y="532"/>
-      <point x="545" y="612"/>
-      <point x="359" y="612" type="curve" smooth="yes"/>
-      <point x="130" y="612" type="line"/>
-      <point x="130" y="528" type="line"/>
-      <point x="359" y="528" type="line" smooth="yes"/>
-      <point x="492" y="528"/>
-      <point x="539" y="482"/>
-      <point x="539" y="349" type="curve" smooth="yes"/>
+      <point x="519.2" y="0" type="line"/>
+      <point x="640.7" y="0" type="line"/>
+      <point x="640.7" y="333.05" type="line" smooth="yes"/>
+      <point x="640.7" y="516.05"/>
+      <point x="554.9" y="612"/>
+      <point x="355.7" y="612" type="curve" smooth="yes"/>
+      <point x="116.5" y="612" type="line"/>
+      <point x="116.5" y="502.7" type="line"/>
+      <point x="355.7" y="502.7" type="line" smooth="yes"/>
+      <point x="477.7" y="502.7"/>
+      <point x="519.2" y="458.35"/>
+      <point x="519.2" y="333.6" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="76" y="0" type="line"/>
-      <point x="170" y="0" type="line"/>
-      <point x="170" y="612" type="line"/>
-      <point x="76" y="612" type="line"/>
+      <point x="70.5" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="192" y="612" type="line"/>
+      <point x="70.5" y="612" type="line"/>
     </contour>
   </outline>
   <lib>

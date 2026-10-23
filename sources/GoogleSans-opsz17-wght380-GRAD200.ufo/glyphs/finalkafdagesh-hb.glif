@@ -2,9 +2,9 @@
 <glyph name="finalkafdagesh-hb" format="2">
   <advance width="535"/>
   <unicode hex="FB3A"/>
-  <anchor x="207" y="0" name="bottom"/>
+  <anchor x="194.075" y="0" name="bottom"/>
   <outline>
     <component base="finalkaf-hb"/>
-    <component base="dagesh-hb" xOffset="107" yOffset="-1"/>
+    <component base="dagesh-hb" xOffset="85.825" yOffset="0.1"/>
   </outline>
 </glyph>

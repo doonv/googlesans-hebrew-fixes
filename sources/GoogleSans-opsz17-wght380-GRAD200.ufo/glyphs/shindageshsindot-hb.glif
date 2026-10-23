@@ -4,7 +4,7 @@
   <unicode hex="FB2D"/>
   <outline>
     <component base="shin-hb"/>
-    <component base="dagesh-hb.alt" xOffset="473" yOffset="266"/>
-    <component base="sindot-hb" xOffset="31" yOffset="1"/>
+    <component base="dagesh-hb.alt" xOffset="450.725" yOffset="253.35"/>
+    <component base="sindot-hb" xOffset="21.925" yOffset="1"/>
   </outline>
 </glyph>

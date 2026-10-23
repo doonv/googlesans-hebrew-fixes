@@ -47,6 +47,7 @@ from qa.update_shaping_test_data import (  # noqa: E402
     ComparisonMode,
     Direction,
     shape_texts,
+    has_only_variable_expectations,
 )
 
 STATIC_UPRIGHT_FEA = [
@@ -383,6 +384,9 @@ def features_regression(font_path: Path) -> CheckStatuses:
         try:
             shaped_texts_expected = shaping_output[font_path.name]
         except KeyError:
+            if "fvar" not in ttf and has_only_variable_expectations(shaping_output):
+                yield SKIP, f"{shaping_file}: Only variable-font expectations recorded"
+                continue
             yield FAIL, f"{shaping_file}: No entry found for {font_path.name}"
             return
 

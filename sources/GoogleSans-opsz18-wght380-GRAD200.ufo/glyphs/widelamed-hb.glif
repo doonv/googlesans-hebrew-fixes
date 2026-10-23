@@ -2,24 +2,24 @@
 <glyph name="widelamed-hb" format="2">
   <advance width="766"/>
   <unicode hex="FB25"/>
-  <anchor x="372" y="0" name="bottom"/>
-  <anchor x="100" y="0" name="bottomleft"/>
-  <anchor x="692" y="0" name="bottomright"/>
-  <anchor x="263" y="308" name="center"/>
-  <anchor x="410" y="612" name="top"/>
-  <anchor x="-30" y="612" name="topleft"/>
-  <anchor x="713" y="612" name="topright"/>
+  <anchor x="377.775" y="0" name="bottom"/>
+  <anchor x="89.825" y="0" name="bottomleft"/>
+  <anchor x="705.475" y="0" name="bottomright"/>
+  <anchor x="262.175" y="307.45" name="center"/>
+  <anchor x="446.025" y="612" name="top"/>
+  <anchor x="-40.175" y="612" name="topleft"/>
+  <anchor x="719.325" y="612" name="topright"/>
   <outline>
     <contour>
-      <point x="334" y="0" type="line"/>
-      <point x="435" y="0" type="line"/>
-      <point x="713" y="528" type="line"/>
-      <point x="713" y="612" type="line"/>
-      <point x="156" y="612" type="line"/>
-      <point x="156" y="790" type="line"/>
-      <point x="62" y="790" type="line"/>
-      <point x="62" y="528" type="line"/>
-      <point x="614" y="528" type="line"/>
+      <point x="316.125" y="0" type="line"/>
+      <point x="453.425" y="0" type="line"/>
+      <point x="719.325" y="502.7" type="line"/>
+      <point x="719.325" y="612" type="line"/>
+      <point x="180.475" y="612" type="line"/>
+      <point x="180.475" y="790" type="line"/>
+      <point x="53.475" y="790" type="line"/>
+      <point x="53.475" y="502.7" type="line"/>
+      <point x="585.125" y="502.7" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -157,10 +157,9 @@ feature ccmp {
         lookupflag UseMarkFilteringSet @hb_diacriticMarks;
         sub alef-hb patah-hb by alefpatah-hb;
         sub alef-hb qamats-hb by alefqamats-hb;
-        sub finalkafdagesh-hb qamats-hb by finalkafdagesh_qamats-hb;
-        sub finalkafdagesh-hb sheva-hb by finalkafdagesh_sheva-hb;
-        sub finalkaf-hb qamats-hb by finalkaf_qamats-hb;
-        sub finalkaf-hb sheva-hb by finalkaf_sheva-hb;
+        # Keep final kaf and these vowels separate. The precomposed forms
+        # rasterize too low at small sizes in FreeType's default rendering.
+        # Existing mark positioning supplies the vowel offsets instead.
         sub vav-hb holam-hb by vavholam-hb;
         sub lameddagesh-hb holam-hb by lamed_dagesh_holam-hb;
         sub lamed-hb holam-hb by lamed_holam-hb;

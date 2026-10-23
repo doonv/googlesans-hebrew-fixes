@@ -4,6 +4,6 @@
   <unicode hex="FB43"/>
   <outline>
     <component base="finalpe-hb"/>
-    <component base="dagesh-hb.alt" xOffset="355" yOffset="266"/>
+    <component base="dagesh-hb.alt" xOffset="344.55" yOffset="292.95"/>
   </outline>
 </glyph>

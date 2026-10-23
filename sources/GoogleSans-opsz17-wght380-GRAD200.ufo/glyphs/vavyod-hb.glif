@@ -3,7 +3,7 @@
   <advance width="486"/>
   <unicode hex="05F1"/>
   <outline>
-    <component base="vav-hb" xOffset="232"/>
-    <component base="yod-hb"/>
+    <component base="vav-hb" xOffset="249.6"/>
+    <component base="yod-hb" xOffset="-20.35"/>
   </outline>
 </glyph>

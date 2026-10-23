@@ -2,33 +2,33 @@
 <glyph name="widekaf-hb" format="2">
   <advance width="752"/>
   <unicode hex="FB24"/>
-  <anchor x="336" y="0" name="bottom"/>
-  <anchor x="0" y="0" name="bottomleft"/>
-  <anchor x="565" y="0" name="bottomright"/>
-  <anchor x="320" y="308" name="center"/>
-  <anchor x="277" y="612" name="top"/>
-  <anchor x="0" y="612" name="topleft"/>
-  <anchor x="565" y="612" name="topright"/>
+  <anchor x="312.625" y="0" name="bottom"/>
+  <anchor x="-10.725" y="0" name="bottomleft"/>
+  <anchor x="568.025" y="0" name="bottomright"/>
+  <anchor x="292.225" y="307.45" name="center"/>
+  <anchor x="286.625" y="612" name="top"/>
+  <anchor x="-10.725" y="612" name="topleft"/>
+  <anchor x="568.025" y="612" name="topright"/>
   <outline>
     <contour>
-      <point x="78" y="0" type="line"/>
-      <point x="312" y="0" type="line" smooth="yes"/>
-      <point x="565" y="0"/>
-      <point x="690" y="119"/>
-      <point x="690" y="307" type="curve" smooth="yes"/>
-      <point x="690" y="495"/>
-      <point x="565" y="612"/>
-      <point x="312" y="612" type="curve" smooth="yes"/>
-      <point x="78" y="612" type="line"/>
-      <point x="78" y="528" type="line"/>
-      <point x="312" y="528" type="line" smooth="yes"/>
-      <point x="499" y="528"/>
-      <point x="594" y="457"/>
-      <point x="594" y="307" type="curve" smooth="yes"/>
-      <point x="594" y="157"/>
-      <point x="499" y="84"/>
-      <point x="312" y="84" type="curve" smooth="yes"/>
-      <point x="78" y="84" type="line"/>
+      <point x="60.675" y="0" type="line"/>
+      <point x="314.475" y="0" type="line" smooth="yes"/>
+      <point x="568.025" y="0"/>
+      <point x="701.275" y="123.4"/>
+      <point x="701.275" y="307" type="curve" smooth="yes"/>
+      <point x="701.275" y="490.6"/>
+      <point x="568.025" y="612"/>
+      <point x="314.475" y="612" type="curve" smooth="yes"/>
+      <point x="60.675" y="612" type="line"/>
+      <point x="60.675" y="502.7" type="line"/>
+      <point x="314.475" y="502.7" type="line" smooth="yes"/>
+      <point x="485.525" y="502.7"/>
+      <point x="574.475" y="436.65"/>
+      <point x="574.475" y="307" type="curve" smooth="yes"/>
+      <point x="574.475" y="177.35"/>
+      <point x="485.525" y="109.3"/>
+      <point x="314.475" y="109.3" type="curve" smooth="yes"/>
+      <point x="60.675" y="109.3" type="line"/>
     </contour>
   </outline>
   <lib>

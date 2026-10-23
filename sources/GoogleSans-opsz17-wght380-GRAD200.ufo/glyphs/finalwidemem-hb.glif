@@ -2,30 +2,30 @@
 <glyph name="finalwidemem-hb" format="2">
   <advance width="921"/>
   <unicode hex="FB26"/>
-  <anchor x="467" y="0" name="bottom"/>
-  <anchor x="0" y="0" name="bottomleft"/>
-  <anchor x="825" y="0" name="bottomright"/>
-  <anchor x="479" y="630" name="top"/>
-  <anchor x="0" y="630" name="topleft"/>
-  <anchor x="725" y="630" name="topright"/>
+  <anchor x="451.6" y="0" name="bottom"/>
+  <anchor x="-11.55" y="0" name="bottomleft"/>
+  <anchor x="832.15" y="0" name="bottomright"/>
+  <anchor x="457" y="630" name="top"/>
+  <anchor x="-11.55" y="630" name="topleft"/>
+  <anchor x="727.75" y="630" name="topright"/>
   <outline>
     <contour>
-      <point x="104" y="0" type="line"/>
-      <point x="825" y="0" type="line"/>
-      <point x="825" y="393" type="line" smooth="yes"/>
-      <point x="825" y="557"/>
-      <point x="725" y="630"/>
-      <point x="542" y="630" type="curve" smooth="yes"/>
-      <point x="104" y="630" type="line"/>
+      <point x="85.3" y="0" type="line"/>
+      <point x="832.15" y="0" type="line"/>
+      <point x="832.15" y="363.85" type="line" smooth="yes"/>
+      <point x="832.15" y="539.95"/>
+      <point x="727.75" y="630"/>
+      <point x="521.65" y="630" type="curve" smooth="yes"/>
+      <point x="85.3" y="630" type="line"/>
     </contour>
     <contour>
-      <point x="198" y="78" type="line"/>
-      <point x="198" y="552" type="line"/>
-      <point x="542" y="552" type="line" smooth="yes"/>
-      <point x="681" y="552"/>
-      <point x="731" y="499"/>
-      <point x="731" y="393" type="curve" smooth="yes"/>
-      <point x="731" y="78" type="line"/>
+      <point x="210.1" y="106.6" type="line"/>
+      <point x="210.1" y="523.4" type="line"/>
+      <point x="521.65" y="523.4" type="line" smooth="yes"/>
+      <point x="662.3" y="523.4"/>
+      <point x="707.35" y="467.65"/>
+      <point x="707.35" y="364.4" type="curve" smooth="yes"/>
+      <point x="707.35" y="106.6" type="line"/>
     </contour>
   </outline>
   <lib>

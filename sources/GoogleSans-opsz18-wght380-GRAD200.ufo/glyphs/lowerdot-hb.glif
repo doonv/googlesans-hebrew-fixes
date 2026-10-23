@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lowerdot-hb" format="2">
   <unicode hex="05C5"/>
-  <anchor x="99" y="0" name="_bottom"/>
-  <anchor x="96" y="0" name="bottom"/>
+  <anchor x="105.6" y="0" name="_bottom"/>
+  <anchor x="102.6" y="0" name="bottom"/>
   <outline>
-    <component base="hiriq-hb" yOffset="-11"/>
+    <component base="hiriq-hb" yOffset="-4.95"/>
   </outline>
   <lib>
     <dict>

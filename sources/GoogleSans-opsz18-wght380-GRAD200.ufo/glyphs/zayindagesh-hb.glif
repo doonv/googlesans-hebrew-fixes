@@ -3,8 +3,8 @@
   <advance width="403"/>
   <unicode hex="FB36"/>
   <outline>
-    <component base="zayin-hb" xOffset="7"/>
-    <component base="dagesh-hb" xOffset="-60"/>
+    <component base="zayin-hb" xOffset="19.65"/>
+    <component base="dagesh-hb" xOffset="-80.35"/>
   </outline>
   <lib>
     <dict>

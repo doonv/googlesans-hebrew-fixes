@@ -2,23 +2,23 @@
 <glyph name="widedalet-hb" format="2">
   <advance width="837"/>
   <unicode hex="FB22"/>
-  <anchor x="591" y="0" name="bottom"/>
-  <anchor x="-5" y="0" name="bottomleft"/>
-  <anchor x="764" y="0" name="bottomright"/>
-  <anchor x="286" y="308" name="center"/>
-  <anchor x="400" y="612" name="top"/>
-  <anchor x="-5" y="612" name="topleft"/>
-  <anchor x="764" y="612" name="topright"/>
+  <anchor x="593.475" y="0" name="bottom"/>
+  <anchor x="-19.575" y="0" name="bottomleft"/>
+  <anchor x="792.875" y="0" name="bottomright"/>
+  <anchor x="263.725" y="307.45" name="center"/>
+  <anchor x="399.725" y="612" name="top"/>
+  <anchor x="-19.575" y="612" name="topleft"/>
+  <anchor x="792.875" y="612" name="topright"/>
   <outline>
     <contour>
-      <point x="544" y="0" type="line"/>
-      <point x="638" y="0" type="line"/>
-      <point x="638" y="528" type="line"/>
-      <point x="764" y="528" type="line"/>
-      <point x="764" y="612" type="line"/>
-      <point x="60" y="612" type="line"/>
-      <point x="60" y="528" type="line"/>
-      <point x="544" y="528" type="line"/>
+      <point x="532.175" y="0" type="line"/>
+      <point x="656.975" y="0" type="line"/>
+      <point x="656.975" y="502.7" type="line"/>
+      <point x="792.875" y="502.7" type="line"/>
+      <point x="792.875" y="612" type="line"/>
+      <point x="38.275" y="612" type="line"/>
+      <point x="38.275" y="502.7" type="line"/>
+      <point x="532.175" y="502.7" type="line"/>
     </contour>
   </outline>
   <lib>

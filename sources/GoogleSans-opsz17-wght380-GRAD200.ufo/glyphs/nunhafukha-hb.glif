@@ -2,23 +2,23 @@
 <glyph name="nunhafukha-hb" format="2">
   <advance width="407"/>
   <unicode hex="05C6"/>
-  <anchor x="288" y="629" name="top"/>
+  <anchor x="270.95" y="629" name="top"/>
   <outline>
     <contour>
-      <point x="80" y="0" type="line"/>
-      <point x="356" y="0" type="line"/>
-      <point x="356" y="84" type="line"/>
-      <point x="174" y="84" type="line"/>
-      <point x="174" y="438" type="line" smooth="yes"/>
-      <point x="174" y="512"/>
-      <point x="198" y="546"/>
-      <point x="266" y="546" type="curve" smooth="yes"/>
-      <point x="350" y="546" type="line"/>
-      <point x="350" y="630" type="line"/>
-      <point x="264" y="630" type="line" smooth="yes"/>
-      <point x="130" y="630"/>
-      <point x="80" y="565"/>
-      <point x="80" y="440" type="curve" smooth="yes"/>
+      <point x="75.05" y="0" type="line"/>
+      <point x="368.1" y="0" type="line"/>
+      <point x="368.1" y="109.3" type="line"/>
+      <point x="196.55" y="109.3" type="line"/>
+      <point x="196.55" y="417.65" type="line" smooth="yes"/>
+      <point x="196.55" y="481.2"/>
+      <point x="215.6" y="520.7"/>
+      <point x="288" y="520.7" type="curve" smooth="yes"/>
+      <point x="362.1" y="520.7" type="line"/>
+      <point x="362.1" y="630" type="line"/>
+      <point x="282.15" y="630" type="line" smooth="yes"/>
+      <point x="128.9" y="630"/>
+      <point x="75.05" y="557.3"/>
+      <point x="75.05" y="421.85" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

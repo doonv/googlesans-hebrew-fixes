@@ -4,6 +4,6 @@
   <unicode hex="FB49"/>
   <outline>
     <component base="shin-hb"/>
-    <component base="dagesh-hb.alt" xOffset="492" yOffset="258"/>
+    <component base="dagesh-hb.alt" xOffset="474.4" yOffset="253.05"/>
   </outline>
 </glyph>

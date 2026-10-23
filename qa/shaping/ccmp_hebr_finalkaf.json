@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "description": "Keep final kaf and sheva/qamats separate, including dagesh and cantillation."
+  },
+  "input": {
+    "features": {
+      "ccmp": true
+    },
+    "script": "hebr",
+    "language": "he",
+    "direction": "rtl",
+    "comparison_mode": "full",
+    "text": [
+      "ךְ ךָ ךְּ ךָּ",
+      "אֵיךְ כָּךָ",
+      "ךְ֑ ךָ֖ ךְּ֑ ךָּ֖"
+    ]
+  },
+  "output": {
+    "GoogleSans-Bold.ttf": [
+      "uni05B8=10@31,0|uniFB3A=10+575|space=9+234|uni05B0=6@88,0|uniFB3A=6+575|space=5+234|uni05B8=3@31,0|uni05DA=3+575|space=2+234|uni05B0=0@88,0|uni05DA=0+575",
+      "uni05B8=9@31,0|uni05DA=9+575|uni05B8=6@62,0|uniFB3B=6+573|space=5+234|uni05B0=3@88,0|uni05DA=3+575|uni05D9=2@-20,0+246|uni05B5=0@137,0|uni05D0=0+688",
+      "uni0596=13@-209,0|uni05B8=13@31,0|uniFB3A=13+575|space=12+234|uni0591=8@-152,0|uni05B0=8@88,0|uniFB3A=8+575|space=7+234|uni0596=4@-209,0|uni05B8=4@31,0|uni05DA=4+575|space=3+234|uni0591=0@-152,0|uni05B0=0@88,0|uni05DA=0+575"
+    ],
+    "GoogleSans-BoldItalic.ttf": [
+      "uni05B8=10@31,0|uniFB3A=10+575|space=9+220|uni05B0=6@88,0|uniFB3A=6+575|space=5+220|uni05B8=3@31,0|uni05DA=3+575|space=2+220|uni05B0=0@88,0|uni05DA=0+575",
+      "uni05B8=9@31,0|uni05DA=9+575|uni05B8=6@62,0|uniFB3B=6+575|space=5+220|uni05B0=3@88,0|uni05DA=3+575|uni05D9=2@-20,0+246|uni05B5=0@137,0|uni05D0=0+688",
+      "uni0596=13@-209,0|uni05B8=13@31,0|uniFB3A=13+575|space=12+220|uni0591=8@-152,0|uni05B0=8@88,0|uniFB3A=8+575|space=7+220|uni0596=4@-209,0|uni05B8=4@31,0|uni05DA=4+575|space=3+220|uni0591=0@-152,0|uni05B0=0@88,0|uni05DA=0+575"
+    ],
+    "GoogleSans-Italic.ttf": [
+      "uni05B8=10@49,0|uniFB3A=10+534|space=9+224|uni05B0=6@109,0|uniFB3A=6+534|space=5+224|uni05B8=3@45,0|uni05DA=3+534|space=2+224|uni05B0=0@105,0|uni05DA=0+534",
+      "uni05B8=9@45,0|uni05DA=9+534|uni05B8=6@94,0|uniFB3B=6+573|space=5+224|uni05B0=3@105,0|uni05DA=3+534|uni05D9=2@-20,0+206|uni05B5=0@145,0|uni05D0=0+657",
+      "uni0596=13@-191,0|uni05B8=13@49,0|uniFB3A=13+534|space=12+224|uni0591=8@-131,0|uni05B0=8@109,0|uniFB3A=8+534|space=7+224|uni0596=4@-195,0|uni05B8=4@45,0|uni05DA=4+534|space=3+224|uni0591=0@-135,0|uni05B0=0@105,0|uni05DA=0+534"
+    ],
+    "GoogleSans-Medium.ttf": [
+      "uni05B8=10@40,0|uniFB3A=10+554|space=9+233|uni05B0=6@99,0|uniFB3A=6+554|space=5+233|uni05B8=3@38,0|uni05DA=3+554|space=2+233|uni05B0=0@97,0|uni05DA=0+554",
+      "uni05B8=9@38,0|uni05DA=9+554|uni05B8=6@79,0|uniFB3B=6+573|space=5+233|uni05B0=3@97,0|uni05DA=3+554|uni05D9=2@-20,0+226|uni05B5=0@141,0|uni05D0=0+672",
+      "uni0596=13@-200,0|uni05B8=13@40,0|uniFB3A=13+554|space=12+233|uni0591=8@-141,0|uni05B0=8@99,0|uniFB3A=8+554|space=7+233|uni0596=4@-202,0|uni05B8=4@38,0|uni05DA=4+554|space=3+233|uni0591=0@-143,0|uni05B0=0@97,0|uni05DA=0+554"
+    ],
+    "GoogleSans-MediumItalic.ttf": [
+      "uni05B8=10@40,0|uniFB3A=10+554|space=9+222|uni05B0=6@99,0|uniFB3A=6+554|space=5+222|uni05B8=3@38,0|uni05DA=3+554|space=2+222|uni05B0=0@97,0|uni05DA=0+554",
+      "uni05B8=9@38,0|uni05DA=9+554|uni05B8=6@78,0|uniFB3B=6+574|space=5+222|uni05B0=3@97,0|uni05DA=3+554|uni05D9=2@-20,0+226|uni05B5=0@141,0|uni05D0=0+672",
+      "uni0596=13@-200,0|uni05B8=13@40,0|uniFB3A=13+554|space=12+222|uni0591=8@-141,0|uni05B0=8@99,0|uniFB3A=8+554|space=7+222|uni0596=4@-202,0|uni05B8=4@38,0|uni05DA=4+554|space=3+222|uni0591=0@-143,0|uni05B0=0@97,0|uni05DA=0+554"
+    ],
+    "GoogleSans-Regular.ttf": [
+      "uni05B8=10@49,0|uniFB3A=10+534|space=9+232|uni05B0=6@109,0|uniFB3A=6+534|space=5+232|uni05B8=3@45,0|uni05DA=3+534|space=2+232|uni05B0=0@105,0|uni05DA=0+534",
+      "uni05B8=9@45,0|uni05DA=9+534|uni05B8=6@95,0|uniFB3B=6+573|space=5+232|uni05B0=3@105,0|uni05DA=3+534|uni05D9=2@-20,0+206|uni05B5=0@145,0|uni05D0=0+657",
+      "uni0596=13@-191,0|uni05B8=13@49,0|uniFB3A=13+534|space=12+232|uni0591=8@-131,0|uni05B0=8@109,0|uniFB3A=8+534|space=7+232|uni0596=4@-195,0|uni05B8=4@45,0|uni05DA=4+534|space=3+232|uni0591=0@-135,0|uni05B0=0@105,0|uni05DA=0+534"
+    ],
+    "GoogleSansText-Bold.ttf": [
+      "uni05B8=10@41,0|uniFB3A=10+594|space=9+256|uni05B0=6@98,0|uniFB3A=6+594|space=5+256|uni05B8=3@41,0|uni05DA=3+594|space=2+256|uni05B0=0@98,0|uni05DA=0+594",
+      "uni05B8=9@41,0|uni05DA=9+594|uni05B8=6@90,0|uniFB3B=6+574|space=5+256|uni05B0=3@98,0|uni05DA=3+594|uni05D9=2@-20,0+276|uni05B5=0@139,0|uni05D0=0+691",
+      "uni0596=13@-199,0|uni05B8=13@41,0|uniFB3A=13+594|space=12+256|uni0591=8@-142,0|uni05B0=8@98,0|uniFB3A=8+594|space=7+256|uni0596=4@-199,0|uni05B8=4@41,0|uni05DA=4+594|space=3+256|uni0591=0@-142,0|uni05B0=0@98,0|uni05DA=0+594"
+    ],
+    "GoogleSansText-BoldItalic.ttf": [
+      "uni05B8=10@41,0|uniFB3A=10+594|space=9+256|uni05B0=6@98,0|uniFB3A=6+594|space=5+256|uni05B8=3@41,0|uni05DA=3+594|space=2+256|uni05B0=0@98,0|uni05DA=0+594",
+      "uni05B8=9@41,0|uni05DA=9+594|uni05B8=6@90,0|uniFB3B=6+577|space=5+256|uni05B0=3@98,0|uni05DA=3+594|uni05D9=2@-20,0+276|uni05B5=0@139,0|uni05D0=0+691",
+      "uni0596=13@-199,0|uni05B8=13@41,0|uniFB3A=13+594|space=12+256|uni0591=8@-142,0|uni05B0=8@98,0|uniFB3A=8+594|space=7+256|uni0596=4@-199,0|uni05B8=4@41,0|uni05DA=4+594|space=3+256|uni0591=0@-142,0|uni05B0=0@98,0|uni05DA=0+594"
+    ],
+    "GoogleSansText-Italic.ttf": [
+      "uni05B8=10@47,0|uniFB3A=10+535|space=9+256|uni05B0=6@107,0|uniFB3A=6+535|space=5+256|uni05B8=3@47,0|uni05DA=3+535|space=2+256|uni05B0=0@107,0|uni05DA=0+535",
+      "uni05B8=9@47,0|uni05DA=9+535|uni05B8=6@95,0|uniFB3B=6+560|space=5+256|uni05B0=3@107,0|uni05DA=3+535|uni05D9=2@-20,0+212|uni05B5=0@141,0|uni05D0=0+639",
+      "uni0596=13@-193,0|uni05B8=13@47,0|uniFB3A=13+535|space=12+256|uni0591=8@-133,0|uni05B0=8@107,0|uniFB3A=8+535|space=7+256|uni0596=4@-193,0|uni05B8=4@47,0|uni05DA=4+535|space=3+256|uni0591=0@-133,0|uni05B0=0@107,0|uni05DA=0+535"
+    ],
+    "GoogleSansText-Medium.ttf": [
+      "uni05B8=10@44,0|uniFB3A=10+564|space=9+256|uni05B0=6@103,0|uniFB3A=6+564|space=5+256|uni05B8=3@44,0|uni05DA=3+564|space=2+256|uni05B0=0@103,0|uni05DA=0+564",
+      "uni05B8=9@44,0|uni05DA=9+564|uni05B8=6@92,0|uniFB3B=6+565|space=5+256|uni05B0=3@103,0|uni05DA=3+564|uni05D9=2@-20,0+244|uni05B5=0@140,0|uni05D0=0+665",
+      "uni0596=13@-196,0|uni05B8=13@44,0|uniFB3A=13+564|space=12+256|uni0591=8@-137,0|uni05B0=8@103,0|uniFB3A=8+564|space=7+256|uni0596=4@-196,0|uni05B8=4@44,0|uni05DA=4+564|space=3+256|uni0591=0@-137,0|uni05B0=0@103,0|uni05DA=0+564"
+    ],
+    "GoogleSansText-MediumItalic.ttf": [
+      "uni05B8=10@44,0|uniFB3A=10+564|space=9+256|uni05B0=6@103,0|uniFB3A=6+564|space=5+256|uni05B8=3@44,0|uni05DA=3+564|space=2+256|uni05B0=0@103,0|uni05DA=0+564",
+      "uni05B8=9@44,0|uni05DA=9+564|uni05B8=6@92,0|uniFB3B=6+568|space=5+256|uni05B0=3@103,0|uni05DA=3+564|uni05D9=2@-20,0+244|uni05B5=0@140,0|uni05D0=0+665",
+      "uni0596=13@-196,0|uni05B8=13@44,0|uniFB3A=13+564|space=12+256|uni0591=8@-137,0|uni05B0=8@103,0|uniFB3A=8+564|space=7+256|uni0596=4@-196,0|uni05B8=4@44,0|uni05DA=4+564|space=3+256|uni0591=0@-137,0|uni05B0=0@103,0|uni05DA=0+564"
+    ],
+    "GoogleSansText-Regular.ttf": [
+      "uni05B8=10@47,0|uniFB3A=10+535|space=9+256|uni05B0=6@107,0|uniFB3A=6+535|space=5+256|uni05B8=3@47,0|uni05DA=3+535|space=2+256|uni05B0=0@107,0|uni05DA=0+535",
+      "uni05B8=9@47,0|uni05DA=9+535|uni05B8=6@94,0|uniFB3B=6+557|space=5+256|uni05B0=3@107,0|uni05DA=3+535|uni05D9=2@-20,0+212|uni05B5=0@141,0|uni05D0=0+639",
+      "uni0596=13@-193,0|uni05B8=13@47,0|uniFB3A=13+535|space=12+256|uni0591=8@-133,0|uni05B0=8@107,0|uniFB3A=8+535|space=7+256|uni0596=4@-193,0|uni05B8=4@47,0|uni05DA=4+535|space=3+256|uni0591=0@-133,0|uni05B0=0@107,0|uni05DA=0+535"
+    ],
+    "GoogleSans-Italic[GRAD,opsz,wght].ttf": {
+      "opsz=18.0,wght=400.0,GRAD=0.0": [
+        "uni05B8=10@49,0|uniFB3A=10+534|space=9+224|uni05B0=6@109,0|uniFB3A=6+534|space=5+224|uni05B8=3@45,0|uni05DA=3+534|space=2+224|uni05B0=0@105,0|uni05DA=0+534",
+        "uni05B8=9@45,0|uni05DA=9+534|uni05B8=6@94,0|uniFB3B=6+573|space=5+224|uni05B0=3@105,0|uni05DA=3+534|uni05D9=2@-20,0+206|uni05B5=0@145,0|uni05D0=0+657",
+        "uni0596=13@-191,0|uni05B8=13@49,0|uniFB3A=13+534|space=12+224|uni0591=8@-131,0|uni05B0=8@109,0|uniFB3A=8+534|space=7+224|uni0596=4@-195,0|uni05B8=4@45,0|uni05DA=4+534|space=3+224|uni0591=0@-135,0|uni05B0=0@105,0|uni05DA=0+534"
+      ],
+      "opsz=18.0,wght=500.0,GRAD=0.0": [
+        "uni05B8=10@40,0|uniFB3A=10+554|space=9+222|uni05B0=6@99,0|uniFB3A=6+554|space=5+222|uni05B8=3@38,0|uni05DA=3+554|space=2+222|uni05B0=0@97,0|uni05DA=0+554",
+        "uni05B8=9@38,0|uni05DA=9+554|uni05B8=6@78,0|uniFB3B=6+574|space=5+222|uni05B0=3@97,0|uni05DA=3+554|uni05D9=2@-20,0+226|uni05B5=0@141,0|uni05D0=0+672",
+        "uni0596=13@-200,0|uni05B8=13@40,0|uniFB3A=13+554|space=12+222|uni0591=8@-141,0|uni05B0=8@99,0|uniFB3A=8+554|space=7+222|uni0596=4@-202,0|uni05B8=4@38,0|uni05DA=4+554|space=3+222|uni0591=0@-143,0|uni05B0=0@97,0|uni05DA=0+554"
+      ],
+      "opsz=18.0,wght=700.0,GRAD=0.0": [
+        "uni05B8=10@31,0|uniFB3A=10+575|space=9+220|uni05B0=6@88,0|uniFB3A=6+575|space=5+220|uni05B8=3@31,0|uni05DA=3+575|space=2+220|uni05B0=0@88,0|uni05DA=0+575",
+        "uni05B8=9@31,0|uni05DA=9+575|uni05B8=6@62,0|uniFB3B=6+575|space=5+220|uni05B0=3@88,0|uni05DA=3+575|uni05D9=2@-20,0+246|uni05B5=0@137,0|uni05D0=0+688",
+        "uni0596=13@-209,0|uni05B8=13@31,0|uniFB3A=13+575|space=12+220|uni0591=8@-152,0|uni05B0=8@88,0|uniFB3A=8+575|space=7+220|uni0596=4@-209,0|uni05B8=4@31,0|uni05DA=4+575|space=3+220|uni0591=0@-152,0|uni05B0=0@88,0|uni05DA=0+575"
+      ]
+    },
+    "GoogleSans[GRAD,opsz,wght].ttf": {
+      "opsz=18.0,wght=400.0,GRAD=0.0": [
+        "uni05B8=10@49,0|uniFB3A=10+534|space=9+232|uni05B0=6@109,0|uniFB3A=6+534|space=5+232|uni05B8=3@45,0|uni05DA=3+534|space=2+232|uni05B0=0@105,0|uni05DA=0+534",
+        "uni05B8=9@45,0|uni05DA=9+534|uni05B8=6@95,0|uniFB3B=6+573|space=5+232|uni05B0=3@105,0|uni05DA=3+534|uni05D9=2@-20,0+206|uni05B5=0@145,0|uni05D0=0+657",
+        "uni0596=13@-191,0|uni05B8=13@49,0|uniFB3A=13+534|space=12+232|uni0591=8@-131,0|uni05B0=8@109,0|uniFB3A=8+534|space=7+232|uni0596=4@-195,0|uni05B8=4@45,0|uni05DA=4+534|space=3+232|uni0591=0@-135,0|uni05B0=0@105,0|uni05DA=0+534"
+      ],
+      "opsz=18.0,wght=500.0,GRAD=0.0": [
+        "uni05B8=10@40,0|uniFB3A=10+554|space=9+233|uni05B0=6@99,0|uniFB3A=6+554|space=5+233|uni05B8=3@38,0|uni05DA=3+554|space=2+233|uni05B0=0@97,0|uni05DA=0+554",
+        "uni05B8=9@38,0|uni05DA=9+554|uni05B8=6@79,0|uniFB3B=6+573|space=5+233|uni05B0=3@97,0|uni05DA=3+554|uni05D9=2@-20,0+226|uni05B5=0@141,0|uni05D0=0+672",
+        "uni0596=13@-200,0|uni05B8=13@40,0|uniFB3A=13+554|space=12+233|uni0591=8@-141,0|uni05B0=8@99,0|uniFB3A=8+554|space=7+233|uni0596=4@-202,0|uni05B8=4@38,0|uni05DA=4+554|space=3+233|uni0591=0@-143,0|uni05B0=0@97,0|uni05DA=0+554"
+      ],
+      "opsz=18.0,wght=700.0,GRAD=0.0": [
+        "uni05B8=10@31,0|uniFB3A=10+575|space=9+234|uni05B0=6@88,0|uniFB3A=6+575|space=5+234|uni05B8=3@31,0|uni05DA=3+575|space=2+234|uni05B0=0@88,0|uni05DA=0+575",
+        "uni05B8=9@31,0|uni05DA=9+575|uni05B8=6@62,0|uniFB3B=6+573|space=5+234|uni05B0=3@88,0|uni05DA=3+575|uni05D9=2@-20,0+246|uni05B5=0@137,0|uni05D0=0+688",
+        "uni0596=13@-209,0|uni05B8=13@31,0|uniFB3A=13+575|space=12+234|uni0591=8@-152,0|uni05B0=8@88,0|uniFB3A=8+575|space=7+234|uni0596=4@-209,0|uni05B8=4@31,0|uni05DA=4+575|space=3+234|uni0591=0@-152,0|uni05B0=0@88,0|uni05DA=0+575"
+      ]
+    }
+  }
+}

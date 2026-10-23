@@ -3,6 +3,6 @@
   <advance width="534"/>
   <outline>
     <component base="finalkafdagesh-hb"/>
-    <component base="sheva-hb" xOffset="109"/>
+    <component base="sheva-hb" xOffset="86.175"/>
   </outline>
 </glyph>

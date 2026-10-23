@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hatafsegol_siluqleft-hb" format="2">
-  <anchor x="312" y="0" name="_bottom"/>
+  <anchor x="327.4" y="0" name="_bottom"/>
   <anchor x="-40" y="0" name="bottom"/>
   <outline>
-    <component base="sheva-hb" xOffset="377"/>
+    <component base="sheva-hb" xOffset="417.7"/>
     <component base="segol-hb"/>
-    <component base="siluqleft-hb" xOffset="169"/>
+    <component base="siluqleft-hb" xOffset="200.9"/>
   </outline>
   <lib>
     <dict>

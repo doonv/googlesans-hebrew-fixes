@@ -3,8 +3,8 @@
   <advance width="287"/>
   <unicode hex="FB39"/>
   <outline>
-    <component base="yod-hb" xOffset="61"/>
-    <component base="dagesh-hb" xOffset="-60" yOffset="104"/>
+    <component base="yod-hb" xOffset="71.45"/>
+    <component base="dagesh-hb" xOffset="-81.45" yOffset="105.65"/>
   </outline>
   <lib>
     <dict>

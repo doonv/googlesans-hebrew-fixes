@@ -161,6 +161,14 @@ test:
 		--plugin qa/check-charset.py,qa/check-fea.py,qa/check-googlesans.py \
 		--html out/fontspector/fontspector-googlesans-report.html
 
+# Independent, clean-clone validation for this fork. Baselines come from the
+# pinned upstream Git commit, not from local experimental font snapshots.
+check-hebrew:
+	uv run --with-requirements requirements-dev.txt python scripts/check-hebrew.py
+
+hebrew-specimens:
+	uv run --with-requirements requirements-dev.txt python scripts/check-hebrew.py --specimens
+
 #################################
 # Working with external vendors #
 #################################
@@ -207,7 +215,7 @@ metadata:
 	$(UV_RUN) metadata/metadata-builder.py
 
 .PHONY: help shaperglot test release figma autobase metadata \
-update-glyphset-expectations update-shaping-expectations
+update-glyphset-expectations update-shaping-expectations check-hebrew hebrew-specimens
 
 # Disable built-in rules to speed up source globbing.
 MAKEFLAGS += --no-builtin-rules

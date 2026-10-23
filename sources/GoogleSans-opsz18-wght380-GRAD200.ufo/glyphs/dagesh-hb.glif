@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dagesh-hb" format="2">
   <unicode hex="05BC"/>
-  <anchor x="100" y="317" name="_center"/>
+  <anchor x="108.25" y="316.45" name="_center"/>
   <outline>
     <contour>
-      <point x="100" y="267" type="curve" smooth="yes"/>
-      <point x="129" y="267"/>
-      <point x="150" y="290"/>
-      <point x="150" y="317" type="curve" smooth="yes"/>
-      <point x="150" y="346"/>
-      <point x="129" y="367"/>
-      <point x="100" y="367" type="curve" smooth="yes"/>
-      <point x="73" y="367"/>
-      <point x="50" y="346"/>
-      <point x="50" y="317" type="curve" smooth="yes"/>
-      <point x="50" y="290"/>
-      <point x="73" y="267"/>
+      <point x="107.7" y="258.2" type="curve" smooth="yes"/>
+      <point x="141.1" y="258.2"/>
+      <point x="165.95" y="284.5"/>
+      <point x="165.95" y="316.45" type="curve" smooth="yes"/>
+      <point x="165.95" y="349.3"/>
+      <point x="141.1" y="374.15"/>
+      <point x="107.7" y="374.15" type="curve" smooth="yes"/>
+      <point x="76.3" y="374.15"/>
+      <point x="50" y="349.3"/>
+      <point x="50" y="316.45" type="curve" smooth="yes"/>
+      <point x="50" y="284.5"/>
+      <point x="76.3" y="258.2"/>
     </contour>
   </outline>
   <lib>

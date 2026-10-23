@@ -4,6 +4,6 @@
   <unicode hex="FB4D"/>
   <outline>
     <component base="kaf-hb"/>
-    <component base="rafe-hb" xOffset="55"/>
+    <component base="rafe-hb" xOffset="75.35"/>
   </outline>
 </glyph>

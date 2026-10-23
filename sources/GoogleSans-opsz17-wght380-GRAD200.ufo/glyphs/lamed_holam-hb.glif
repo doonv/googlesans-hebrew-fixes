@@ -3,6 +3,6 @@
   <advance width="547"/>
   <outline>
     <component base="lamed-hb"/>
-    <component base="holam-hb" xOffset="-150"/>
+    <component base="holam-hb" xOffset="-170.075"/>
   </outline>
 </glyph>

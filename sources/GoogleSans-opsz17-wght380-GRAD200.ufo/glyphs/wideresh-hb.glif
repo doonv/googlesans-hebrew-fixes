@@ -2,27 +2,27 @@
 <glyph name="wideresh-hb" format="2">
   <advance width="760"/>
   <unicode hex="FB27"/>
-  <anchor x="616" y="0" name="bottom"/>
-  <anchor x="0" y="0" name="bottomleft"/>
-  <anchor x="663" y="0" name="bottomright"/>
-  <anchor x="313" y="316" name="center"/>
-  <anchor x="308" y="630" name="top"/>
-  <anchor x="0" y="630" name="topleft"/>
-  <anchor x="561" y="630" name="topright"/>
+  <anchor x="613.8" y="0" name="bottom"/>
+  <anchor x="-18.15" y="0" name="bottomleft"/>
+  <anchor x="677.3" y="0" name="bottomright"/>
+  <anchor x="282.2" y="311.05" name="center"/>
+  <anchor x="312.95" y="630" name="top"/>
+  <anchor x="-18.15" y="630" name="topleft"/>
+  <anchor x="566.5" y="630" name="topright"/>
   <outline>
     <contour>
-      <point x="569" y="0" type="line"/>
-      <point x="663" y="0" type="line"/>
-      <point x="664" y="390" type="line" smooth="yes"/>
-      <point x="663" y="552"/>
-      <point x="561" y="630"/>
-      <point x="377" y="630" type="curve" smooth="yes"/>
-      <point x="60" y="630" type="line"/>
-      <point x="60" y="552" type="line"/>
-      <point x="377" y="552" type="line" smooth="yes"/>
-      <point x="504" y="552"/>
-      <point x="569" y="509"/>
-      <point x="570" y="390" type="curve" smooth="yes"/>
+      <point x="552.5" y="0" type="line"/>
+      <point x="677.3" y="0" type="line"/>
+      <point x="677.75" y="368" type="line" smooth="yes"/>
+      <point x="677.3" y="556.95"/>
+      <point x="566.5" y="630"/>
+      <point x="362.15" y="630" type="curve" smooth="yes"/>
+      <point x="48.45" y="630" type="line"/>
+      <point x="48.45" y="523.4" type="line"/>
+      <point x="362.15" y="523.4" type="line" smooth="yes"/>
+      <point x="504.55" y="523.4"/>
+      <point x="552.5" y="480.4"/>
+      <point x="552.95" y="368" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

@@ -1,0 +1,16 @@
+[meta]
+description = "Keep final kaf and sheva/qamats separate, including dagesh and cantillation."
+
+[input.features]
+ccmp = true
+
+[input]
+script = "hebr"
+language = "he"
+direction = "rtl"
+comparison_mode = "full"
+text = [
+    "ךְ ךָ ךְּ ךָּ",
+    "אֵיךְ כָּךָ",
+    "ךְ֑ ךָ֖ ךְּ֑ ךָּ֖",
+]

@@ -4,7 +4,7 @@
   <unicode hex="FB1F"/>
   <outline>
     <component base="yodyod-hb"/>
-    <component base="patah-hb" xOffset="48" yOffset="145"/>
+    <component base="patah-hb" xOffset="48" yOffset="167.55"/>
   </outline>
   <lib>
     <dict>

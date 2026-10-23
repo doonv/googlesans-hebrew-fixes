@@ -26,8 +26,8 @@ permissions:
 
 jobs:
   build-variable:
-    runs-on: googlefonts-64cores-256GB
-    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     steps:
     # on: pull_request uses head_ref for branch name, on: push uses ref_name
     - name: Checkout ${{ inputs.git-ref || github.head_ref || github.ref_name }}
@@ -70,13 +70,13 @@ jobs:
     if: ${{ github.event_name == 'release' || inputs.cut-instances }}
     needs:
     - build-variable
-    runs-on: googlefonts-16cores-64GB
-    timeout-minutes: 10
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
     - name: Checkout ${{ github.ref_name }}
       uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
       with:
-        ref: ${{ github.ref_name }}
+        ref: ${{ inputs.git-ref || github.head_ref || github.ref_name }}
         persist-credentials: false
     - name: Set up Python
       uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
@@ -121,8 +121,8 @@ jobs:
   test-variable:
     needs:
     - build-variable
-    runs-on: googlefonts-8cores-32GB
-    timeout-minutes: 40
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
     steps:
     - name: Checkout ${{ inputs.git-ref || github.head_ref || github.ref_name }}
       uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
@@ -148,7 +148,7 @@ jobs:
     - name: Download built fonts
       uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c  # v8.0.1
       with:
-        name: ${{ needs.build.outputs.artifact-name }}
+        name: ${{ needs.build-variable.outputs.artifact-name }}
         path: fonts
     - name: Check with OT Sanitizer
       uses: f-actions/opentype-sanitizer@d5603373a9adccd136dd48b037b9b5178b485bea  # v4.0.0
@@ -156,6 +156,8 @@ jobs:
         path: fonts/variable/*.ttf
     - name: Run Shaperglot
       run: make shaperglot
+    - name: Check Hebrew shaping fixtures
+      run: uv run --with-requirements requirements-dev.txt python scripts/check-hebrew-fixtures.py
     - name: Run Fontspector
       id: fontspector
       run: make test
@@ -173,8 +175,8 @@ jobs:
     if: ${{ github.event_name == 'release' || inputs.cut-instances }}
     needs:
     - cut-instances
-    runs-on: googlefonts-8cores-32GB
-    timeout-minutes: 30
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     steps:
       - name: Checkout ${{ inputs.git-ref || github.head_ref || github.ref_name }}
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
@@ -209,6 +211,8 @@ jobs:
       - name: Run Fontspector
         id: fontspector
         run: make test
+      - name: Check Hebrew instance shaping fixtures
+        run: uv run --with-requirements requirements-dev.txt python scripts/check-hebrew-fixtures.py --font-dir fonts/static
       - name: Upload Fontspector report
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
         # Always upload reports (even during a pipeline fail), so long as Fontspector completed
@@ -219,6 +223,39 @@ jobs:
           name: Fontspector instances report
           path: out/fontspector
           if-no-files-found: error
+  hebrew-regressions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+    - name: Checkout with upstream baseline history
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      with:
+        ref: ${{ inputs.git-ref || github.head_ref || github.ref_name }}
+        fetch-depth: 0
+        persist-credentials: false
+    - name: Set up Python
+      uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+      with:
+        python-version-file: .github/workflows/python-version.txt
+    - name: Set up uv
+      uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+      with:
+        enable-cache: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        cache-dependency-glob: requirements*.txt
+    - name: Check Hebrew fonts and render specimens
+      run: uv run --with-requirements requirements-dev.txt python scripts/check-hebrew.py --specimens
+    - name: Upload Hebrew reports, fonts, and specimens
+      if: ${{ !cancelled() }}
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+      with:
+        name: Hebrew validation
+        path: |
+          out/*.json
+          out/*.png
+          out/*.ttf
+          out/*.log
+        if-no-files-found: warn
+
   upload-to-release:
     if: github.event_name == 'release'
     needs:
@@ -226,6 +263,7 @@ jobs:
     - cut-instances
     - test-variable
     - test-instances
+    - hebrew-regressions
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

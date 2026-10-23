@@ -3,18 +3,18 @@
   <advance width="232"/>
   <unicode hex="05D9"/>
   <anchor x="116" y="0" name="bottom"/>
-  <anchor x="20" y="0" name="bottomleft"/>
-  <anchor x="219" y="0" name="bottomright"/>
-  <anchor x="-14" y="420" name="center"/>
+  <anchor x="2.4" y="0" name="bottomleft"/>
+  <anchor x="234.95" y="0" name="bottomright"/>
+  <anchor x="-37.65" y="420" name="center"/>
   <anchor x="116" y="630" name="top"/>
-  <anchor x="0" y="630" name="topleft"/>
-  <anchor x="163" y="630" name="topright"/>
+  <anchor x="-17.6" y="630" name="topleft"/>
+  <anchor x="176.75" y="630" name="topright"/>
   <outline>
     <contour>
-      <point x="69" y="270" type="line"/>
-      <point x="163" y="270" type="line"/>
-      <point x="163" y="630" type="line"/>
-      <point x="69" y="630" type="line"/>
+      <point x="55.25" y="270" type="line"/>
+      <point x="176.75" y="270" type="line"/>
+      <point x="176.75" y="630" type="line"/>
+      <point x="55.25" y="630" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -99,7 +99,9 @@ def shape_texts(
     if "fvar" in font:
         result = {}
         for instance in font["fvar"].instances:
-            coordinate_str = ",".join(f"{k}={v}" for k, v in instance.coordinates.items())
+            coordinate_str = ",".join(
+                f"{k}={v}" for k, v in instance.coordinates.items()
+            )
             result[coordinate_str] = [
                 shape_run(
                     hb_face,
@@ -129,10 +131,21 @@ def shape_texts(
         ]
 
 
+def has_only_variable_expectations(output: dict) -> bool:
+    """Whether every recorded font maps axis coordinates to shaped strings.
+
+    Static expectations are lists, whereas variable expectations are dicts.
+    An empty or mixed fixture must not hide a missing static font entry.
+    """
+    return bool(output) and all(isinstance(value, dict) for value in output.values())
+
+
 def toml2json(tomlpath: Path) -> None:
     with tomlpath.open() as tf:
         json_filepath = get_json_filepath(tomlpath)
-        json_filepath.write_text(json.dumps(toml.load(tf), indent=2, ensure_ascii=False))
+        json_filepath.write_text(
+            json.dumps(toml.load(tf), indent=2, ensure_ascii=False)
+        )
 
 
 def get_json_filepath(tomlpath: Path) -> Path:
@@ -174,7 +187,9 @@ if __name__ == "__main__":
     shaping_features = shaping_input.get("features", {})
     shaping_script = shaping_input.get("script")
     shaping_language = shaping_input.get("language")
-    shaping_comparison_mode = ComparisonMode(shaping_input.get("comparison_mode", "full"))
+    shaping_comparison_mode = ComparisonMode(
+        shaping_input.get("comparison_mode", "full")
+    )
     shaping_direction = Direction(shaping_input.get("direction", "ltr"))
 
     if "output" not in shaping_input_doc:

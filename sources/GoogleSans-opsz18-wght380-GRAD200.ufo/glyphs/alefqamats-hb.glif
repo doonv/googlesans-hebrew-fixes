@@ -4,6 +4,6 @@
   <unicode hex="FB2F"/>
   <outline>
     <component base="alef-hb"/>
-    <component base="qamats-hb" xOffset="164"/>
+    <component base="qamats-hb" xOffset="159.875"/>
   </outline>
 </glyph>

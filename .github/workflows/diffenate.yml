@@ -18,8 +18,8 @@ permissions:
 
 jobs:
   build-before:
-    runs-on: googlefonts-64cores-256GB
-    timeout-minutes: 10
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     steps:
     - name: Checkout ${{ inputs.before }}
       uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
@@ -48,8 +48,8 @@ jobs:
         path: fonts/variable
         if-no-files-found: error
   build-after:
-    runs-on: googlefonts-64cores-256GB
-    timeout-minutes: 10
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     steps:
     - name: Checkout ${{ inputs.after }}
       uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
@@ -77,8 +77,8 @@ jobs:
         path: fonts/variable
         if-no-files-found: error
   diffenate:
-    runs-on: googlefonts-64cores-256GB
-    timeout-minutes: 20
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     needs:
     - build-before
     - build-after

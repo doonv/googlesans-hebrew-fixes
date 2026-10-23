@@ -4,6 +4,6 @@
   <unicode hex="FB2A"/>
   <outline>
     <component base="shin-hb"/>
-    <component base="shindot-hb" xOffset="571"/>
+    <component base="shindot-hb" xOffset="561.925"/>
   </outline>
 </glyph>

@@ -2,28 +2,28 @@
 <glyph name="qof-hb" format="2">
   <advance width="667"/>
   <unicode hex="05E7"/>
-  <anchor x="386" y="0" name="bottom"/>
-  <anchor x="-2" y="0" name="bottomleft"/>
-  <anchor x="494" y="0" name="bottomright"/>
-  <anchor x="299" y="316" name="center"/>
-  <anchor x="348" y="630" name="top"/>
-  <anchor x="0" y="630" name="topleft"/>
-  <anchor x="616" y="630" name="topright"/>
+  <anchor x="391.225" y="0" name="bottom"/>
+  <anchor x="-5.025" y="0" name="bottomleft"/>
+  <anchor x="550.375" y="0" name="bottomright"/>
+  <anchor x="304.225" y="316.55" name="center"/>
+  <anchor x="345.525" y="630" name="top"/>
+  <anchor x="-4.125" y="630" name="topleft"/>
+  <anchor x="620.125" y="630" name="topright"/>
   <outline>
     <contour>
-      <point x="336" y="0" type="line"/>
-      <point x="436" y="0" type="line"/>
-      <point x="616" y="538" type="line"/>
-      <point x="616" y="630" type="line"/>
-      <point x="80" y="630" type="line"/>
-      <point x="80" y="546" type="line"/>
-      <point x="518" y="546" type="line"/>
+      <point x="326.375" y="0" type="line"/>
+      <point x="455.525" y="0" type="line"/>
+      <point x="620.125" y="517.1" type="line"/>
+      <point x="620.125" y="630" type="line"/>
+      <point x="70.375" y="630" type="line"/>
+      <point x="70.375" y="520.7" type="line"/>
+      <point x="493.525" y="520.7" type="line"/>
     </contour>
     <contour>
-      <point x="80" y="-216" type="line"/>
-      <point x="174" y="-216" type="line"/>
-      <point x="174" y="349" type="line"/>
-      <point x="80" y="349" type="line"/>
+      <point x="70.375" y="-216" type="line"/>
+      <point x="191.875" y="-216" type="line"/>
+      <point x="191.875" y="344.05" type="line"/>
+      <point x="70.375" y="344.05" type="line"/>
     </contour>
   </outline>
   <lib>

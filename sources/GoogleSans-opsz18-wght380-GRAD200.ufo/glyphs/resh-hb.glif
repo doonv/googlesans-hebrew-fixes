@@ -2,27 +2,27 @@
 <glyph name="resh-hb" format="2">
   <advance width="576"/>
   <unicode hex="05E8"/>
-  <anchor x="463" y="0" name="bottom"/>
-  <anchor x="6" y="0" name="bottomleft"/>
-  <anchor x="546" y="0" name="bottomright"/>
-  <anchor x="231" y="308" name="center"/>
-  <anchor x="251" y="612" name="top"/>
-  <anchor x="0" y="612" name="topleft"/>
-  <anchor x="462" y="612" name="topright"/>
+  <anchor x="453.1" y="0" name="bottom"/>
+  <anchor x="-1.7" y="0" name="bottomleft"/>
+  <anchor x="549.3" y="0" name="bottomright"/>
+  <anchor x="212.85" y="307.45" name="center"/>
+  <anchor x="268.6" y="612" name="top"/>
+  <anchor x="-3.85" y="612" name="topleft"/>
+  <anchor x="463.65" y="612" name="topright"/>
   <outline>
     <contour>
-      <point x="416" y="0" type="line"/>
-      <point x="510" y="0" type="line"/>
-      <point x="510" y="329" type="line" smooth="yes"/>
-      <point x="510" y="529"/>
-      <point x="419" y="612"/>
-      <point x="219" y="612" type="curve" smooth="yes"/>
-      <point x="46" y="612" type="line"/>
-      <point x="46" y="528" type="line"/>
-      <point x="219" y="528" type="line" smooth="yes"/>
-      <point x="366" y="528"/>
-      <point x="416" y="479"/>
-      <point x="416" y="329" type="curve" smooth="yes"/>
+      <point x="392.35" y="0" type="line"/>
+      <point x="513.85" y="0" type="line"/>
+      <point x="513.85" y="330.1" type="line" smooth="yes"/>
+      <point x="513.85" y="531.2"/>
+      <point x="420.65" y="612"/>
+      <point x="225.6" y="612" type="curve" smooth="yes"/>
+      <point x="38.85" y="612" type="line"/>
+      <point x="38.85" y="502.7" type="line"/>
+      <point x="225.6" y="502.7" type="line" smooth="yes"/>
+      <point x="353.35" y="502.7"/>
+      <point x="392.35" y="454.25"/>
+      <point x="392.35" y="330.1" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

@@ -1,3 +1,8 @@
 -r requirements.txt
 
 toml
+
+# Hebrew regression tests and specimens
+freetype-py==2.5.1
+pillow==12.1.1
+uharfbuzz==0.56.0

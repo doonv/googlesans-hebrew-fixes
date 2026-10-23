@@ -3,8 +3,8 @@
   <advance width="301"/>
   <unicode hex="FB35"/>
   <outline>
-    <component base="vav-hb" xOffset="47"/>
-    <component base="dagesh-hb" xOffset="-60" yOffset="-1"/>
+    <component base="vav-hb" xOffset="52.775"/>
+    <component base="dagesh-hb" xOffset="-86.125" yOffset="0.1"/>
   </outline>
   <lib>
     <dict>
