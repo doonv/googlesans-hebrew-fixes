@@ -18,7 +18,7 @@
 # dependencies = [
 #     "fontspectorapi",
 #     "fontTools",
-#     "uharfbuzz",
+#     "uharfbuzz==0.56.0",  # Match requirements-dev.txt and the shaping fixtures.
 #     "toml",  # used by update_shaping_test_data.py
 # ]
 # ///
